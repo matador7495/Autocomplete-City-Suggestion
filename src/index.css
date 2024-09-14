@@ -63,3 +63,9 @@ body {
 .suggestions-list li:last-child {
   border-bottom: none;
 }
+.correct {
+  border: 3px solid #07da46 !important;
+}
+.incorrect {
+  border: 3px solid #e33e3e !important;
+}
