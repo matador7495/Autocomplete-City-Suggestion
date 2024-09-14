@@ -6,7 +6,7 @@ function SuggestionsList({ suggestionsList, setSuggestionsList, setInputValue, s
   };
 
   return (
-    <div>
+    <div className="suggestions-list">
       {suggestionsList.length > 0 && (
         <ul>
           {suggestionsList.map((suggestion) => (
